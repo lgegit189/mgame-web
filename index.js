@@ -1,5 +1,5 @@
 
-const GODOT_SPLIT_FILES = {"index.wasm":{"size":37695054,"compression":"gzip","parts":[{"file":"index.wasm.part00.gz","size":25165824,"compressedSize":5889685},{"file":"index.wasm.part01.gz","size":12529230,"compressedSize":3490547}]},"index.pck":{"size":27031984,"compression":"gzip","parts":[{"file":"index.pck.part00.gz","size":25165824,"compressedSize":25037530},{"file":"index.pck.part01.gz","size":1866160,"compressedSize":1317869}]}};
+const GODOT_SPLIT_FILES = {"index.wasm":{"size":37695054,"compression":"gzip","parts":[{"file":"index.wasm.part00.gz","size":25165824,"compressedSize":5889685},{"file":"index.wasm.part01.gz","size":12529230,"compressedSize":3490547}]},"index.pck":{"size":27033472,"compression":"gzip","parts":[{"file":"index.pck.part00.gz","size":25165824,"compressedSize":25037459},{"file":"index.pck.part01.gz","size":1867648,"compressedSize":1319107}]}};
 
 async function godotLoadSplitFile(file, split, loadStatus, raw) {
 	let loaded = 0;
